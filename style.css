@@ -1,0 +1,68 @@
+body {
+    font-family: "Poppins", "Poppins Placeholder", sans-serif;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #000 !important;
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    height: 60px;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.hero-text {
+    /* margin-right: 50px; */
+}
+
+.hero-text h1 {
+    font-size: 2.7rem;
+    margin: 50px 0 20px;
+    text-align: left;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.hero-text a {
+    margin: 0 10px;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+}
+
+:root {
+    --text-color: #000; /* Replace with appTheme.textColor */
+    --subheading-font-size: 1.2rem; /* Replace with hp(18) equivalent */
+    --text-font-size: 1.2rem; /* Replace with hp(16) equivalent */
+    --text-line-height: 24px; /* Replace with hp(24) equivalent */
+    --margin-bottom: 20px; /* Replace with hp(20) equivalent */
+    --margin-top: 20px; /* Replace with hp(20) equivalent */
+}
+
+.subheading {
+    font-size: var(--subheading-font-size);
+    color: var(--text-color);
+    margin-top: var(--margin-top);
+    font-weight: 600;
+}
+
+.text {
+    font-size: var(--text-font-size);
+    color: var(--text-color);
+    line-height: var(--text-line-height);
+}
